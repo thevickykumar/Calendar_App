@@ -1,0 +1,75 @@
+/* Default styling for the app */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  transition: height 0.3s ease; /* Smooth transition for logo resizing */
+}
+
+/* Reduce the logo size for small screens */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  
+  }
+
+  .App-logo {
+    height: 30vmin; /* Smaller logo size for mobile */
+  }
+
+  /* Adjust the App-header font size and spacing on small screens */
+  .App-header {
+    font-size: calc(12px + 2vmin); /* Increase font size on small screens */
+    padding: 20px;
+  }
+
+  /* Adjust the App-link font size for smaller screens */
+  .App-link {
+    font-size: 14px; /* Smaller font size on mobile */
+  }
+}
+
+/* Styling for larger screens (like tablets and desktops) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .App-logo {
+    height: 35vmin; /* Medium size for tablets */
+  }
+
+  .App-header {
+    font-size: calc(12px + 1.5vmin); /* Adjust font size for medium screens */
+  }
+}
+
+/* Reduce animation speed for users who prefer reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Styling for App Header */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* Keyframe for rotating logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

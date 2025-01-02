@@ -1,0 +1,111 @@
+{
+  "companies": [
+    {
+      "id": "1",
+      "name": "Entnt",
+      "lastCommunications": [
+        {
+          "id": "1",
+          "type": "Email",
+          "date": "2024-12-30",
+          "notes": "Follow-up on proposal"
+        },
+        {
+          "id": "2",
+          "type": "Linkedin",
+          "date": "2024-11-25",
+          "notes": "Initial contact"
+        }
+      ],
+      "nextCommunication": [],
+      "location": "Abu Dhabi",
+      "linkedInProfile": "https://www.linkedin.com/company/entnt/",
+      "comments": "Technical Assignment"
+    },
+    {
+      "id": "2",
+      "name": "Tata Consulting Services",
+      "lastCommunications": [
+        {
+          "id": "1",
+          "type": "Email",
+          "date": "2024-12-01",
+          "notes": "Follow-up on proposal"
+        },
+        {
+          "id": "2",
+          "type": "Linkedin Message",
+          "date": "2024-11-25",
+          "notes": "Initial contact"
+        }
+      ],
+      "nextCommunication": [],
+      "location": "India",
+      "linkedInProfile": "https://www.linkedin.com/company/tata-consultancy-services/",
+      "comments": ""
+    },
+    {
+      "id": "c708",
+      "name": "Amazon",
+      "location": "USA",
+      "linkedInProfile": "https://www.linkedin.com/company/amazon/posts/?feedView=all",
+      "emails": [
+        "cs-reply@amazon.com"
+      ],
+      "phoneNumbers": [
+        "9873961256"
+      ],
+      "comments": "",
+      "communicationPeriodicity": "Weekly"
+    },
+    {
+      "id": "836f",
+      "name": "Zomato",
+      "location": "India",
+      "linkedInProfile": "https://www.linkedin.com/company/zomato/",
+      "emails": [
+        "abc@gmail.com"
+      ],
+      "phoneNumbers": [
+        "65209561096"
+      ],
+      "comments": "",
+      "communicationPeriodicity": "Weekly"
+    }
+  ],
+  "communications": [
+    {
+      "id": "1",
+      "companyId": 1,
+      "type": "Email",
+      "date": "2024-12-01",
+      "notes": "Follow-up on proposal"
+    }
+  ],
+  "communicationMethods": [
+    {
+      "name": "Email",
+      "mandatory": true,
+      "sequence": "1",
+      "id": "70d0"
+    },
+    {
+      "name": "Linkedin ",
+      "mandatory": true,
+      "sequence": "2",
+      "id": "0bdb"
+    },
+    {
+      "name": "Phone",
+      "mandatory": true,
+      "sequence": "3",
+      "id": "d24c"
+    },
+    {
+      "id": "4cb2",
+      "name": "Email",
+      "mandatory": true,
+      "sequence": "2"
+    }
+  ]
+}
